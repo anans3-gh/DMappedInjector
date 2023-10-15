@@ -6,7 +6,7 @@ using DInvoke.ManualMap;
 using Data = DInvoke.Data;
 
 
-namespace DShellRunnerMapped
+namespace DMappedInjector
 {
     class Program
     {
