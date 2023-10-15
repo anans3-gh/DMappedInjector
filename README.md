@@ -1,5 +1,5 @@
 # DMappedInjector
-A C# based implant that uses D/Invokes Manual Memory Mapping Technique to Dynamically search through a freshly mapped module (kernel32.dll, ntdll.dll etc) for the required API addresss to perfrom Process Injection
+A C# based implant that uses D/Invokes Manual Memory Mapping Technique to Dynamically search through a freshly mapped module (kernel32.dll, ntdll.dll etc) for the required API address to perform Process Injection
 
  * This has the advantage of bypassing EDR hooks that are looking through the original modules for 'suspicious' calls
  
