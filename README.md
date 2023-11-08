@@ -7,9 +7,9 @@ A C# based implant that uses the D/Invokes Manual Memory Mapping Technique to Dy
  
  * Included XOR encrypted Shellcode to make it harder to detect by AV/EDR
 
- * Note: Don't forget to include/reference the D/Invoke DLL when compiling your project.
+ * Note: Don't forget to include/reference the D/Invoke DLL (link above) when compiling your project.
     * This will increase the detection, however other means can be employed to make the implant stealthier.
-    * e.g. Play with sleep timers, include non-emulaed APIs, apply obfuscation, Patch ETW, implement Indirect Syscalls, Stage payload, inject into same process etc.
+    * e.g. Play with sleep timers, include non-emulated APIs, apply obfuscation, Patch ETW, implement Indirect Syscalls, Stage payload, inject into same process etc.
 
 
 #### Example Usage:
